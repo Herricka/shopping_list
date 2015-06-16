@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+
+    <string name="budget">Budget</string>
+    <string name="scan">Add Item</string>
+
+
+    <string name="grocery_list_description">Grocery List Button</string>
+    <string name="pantry_description">Pantry</string>
+    <string name="recipe_book_description">Recipe Book Button</string>
+    <string name="calender_description">Calendar Button</string>
+
+    <string name="sort_button">Sort By</string>
+        <string name="ab_atoz">A-Z</string>
+        <string name="ab_ztoa">Z-A</string>
+        <string name="ab_lowtohigh">Price: Low</string>
+        <string name="ab_hightolow">Price: High</string>
+        <string name="ab_producttype">Type</string>
+        <string name="ab_store">Store</string>
+        <string name="ab_checked">Checked</string>
+    <string name="options_button">Options</string>
+        <string name="add_item_button">Add Item</string>
+        <string name="check_all_button">Check All</string>
+        <string name="uncheck_all_button">Uncheck All</string>
+        <string name="delete_checked_button">Delete Checked</string>
+    <string name="ab_exp_date_sooner">Expiration Date: Expires First</string>
+    <string name="ab_exp_date_later">Expiration Date: Expires Last</string>
+
+    <string name="enter_food_hint">(Required)</string>
+    <string name="quantity_hint">Quantity</string>
+    <string name="store_location_hint">Enter Store</string>
+    <string name="price_hint">Enter Price</string>
+    <string name="notes_hint">Enter Notes</string>
+    <string name="food_name_label">Food Name:</string>
+    <string name="quantity_label">Quantity:</string>
+    <string name="store_location_label">Store Location:</string>
+    <string name="price_label">Price (USD):</string>
+    <string name="product_type_label">Product Type:</string>
+    <string name="notes_label">Notes:</string>
+    <string name="price_expanded_label">Price:</string>
+    <string name="store_expanded_label">Store:</string>
+
+    <string name="show_list_button">Show My List</string>
+    <string name="product_prompt">Select a Product Type</string>
+
+    <string-array name="product_arrays">
+        <item> </item>
+        <item>Produce</item>
+        <item>Poultry</item>
+        <item>Meat</item>
+        <item>Canned Goods</item>
+        <item>Bakery</item>
+        <item>Candy</item>
+        <item>Dairy</item>
+        <item>Baking</item>
+        <item>Dry Goods</item>
+        <item>Frozen Goods</item>
+        <item>Seafood</item>
+        <item>Soft Drink</item>
+        <item>Juice</item>
+        <item>Misc. Drink</item>
+        <item>Misc. Grocery</item>
+        <item>Non-Grocery</item>
+    </string-array>
+
+    <string name="grocery_list_desc">View Grocery List</string>
+    <string name="add_item_desc">Add Grocery Item</string>
+
+    <string name="help_topics_main_title">Program Guide</string>
+    <string name="help_topics_main_image">Grocery Main Menu</string>
+    <string name="help_topics_image">Help Topic Picture</string>
+    <string name="steps_title">Information</string>
+    <string name="scan_button">Scan Barcode</string>
+    <string name="help_menu">Help Menu</string>
+    <string name="add_item_toast">Grocery Item Added</string>
+    <string name="update_item_toast">Grocery Item Updated</string>
+    <string name="menu_help_button">Help</string>
+    <string name="technical_support">Technical Support</string>
+    <string name="copyright_information">Copyright Information</string>
+    <string name="program_overview_help">Program Overview</string>
+    <string name="backup_help">Backup Procedures for Software and Data</string>
+    <string name="limitations_help">Capabilities and Limitations of Software</string>
+    <string name="output_help">Dispensation of Output</string>
+    <string name="security_help">Security</string>
+    <string name="hardware_help">Hardware Specifications</string>
+    <string name="software_help">Software Specifications</string>
+    <string name="start_screen_help">Start Screen</string>
+    <string name="grocery_screen">Grocery List Screen</string>
+    <string name="add_item_screen">Add Item Screen</string>
+    <string name="about_us_screen">About Us Screen</string>
+    <string name="error_and_recovery">Error Messages and Recovery Procedures</string>
+
+    <string name="null_space"> </string>
+
+    <string name="ab_scan">Scan New\nItem</string>
+    <string name="ab_clearall">Clear All</string>
+    <string name="ab_gotolist">Go To List</string>
+    <string name="ab_addupdate">Add/Update\nItem</string>
+    <string name="title_activity_budget">Budget</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>

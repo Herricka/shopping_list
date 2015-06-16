@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+
+        android:title="@string/sort_button" >
+        <menu>
+            <item android:id="@+id/menu_item_checked"
+                  android:title="@string/ab_checked"/>
+            <item android:id="@+id/menu_item_atoz"
+                  android:title="@string/ab_atoz"
+                />
+            <item android:id="@+id/menu_item_ztoa"
+                  android:title="@string/ab_ztoa"
+                />
+            <item android:id="@+id/menu_item_lowtohigh"
+                  android:title="@string/ab_lowtohigh"
+                />
+            <item android:id="@+id/menu_item_hightolow"
+                  android:title="@string/ab_hightolow"
+                />
+            <item android:id="@+id/menu_item_producttype"
+                  android:title="@string/ab_producttype"
+                />
+            <item android:id="@+id/menu_item_store"
+                  android:title="@string/ab_store"/>
+
+        </menu>
+
+    </item>
+    <item
+
+        android:title="@string/options_button" >
+        <menu>
+            <item android:id="@+id/menu_item_new_item"
+                  android:title="@string/add_item_button"
+                />
+
+            <item android:id="@+id/menu_item_check_all"
+                  android:title="@string/check_all_button"
+                />
+            <item android:id="@+id/menu_item_uncheck_all"
+                  android:title="@string/uncheck_all_button"
+                />
+            <item android:id="@+id/menu_item_delete_checked"
+                  android:title="@string/delete_checked_button"
+                />
+
+        </menu>
+    </item>
+
+</menu>
+

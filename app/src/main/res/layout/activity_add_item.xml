@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/add_item_label_display"
+
+                android:text="@string/food_name_label" />
+
+            <EditText
+                android:id="@+id/food_name"
+                style="@style/add_item_edittext_display"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:ems="10"
+                android:hint="@string/enter_food_hint"
+
+                >
+
+                <requestFocus />
+            </EditText>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/add_item_label_display"
+                android:text="@string/quantity_label" />
+
+            <EditText
+                android:id="@+id/quantity"
+                style="@style/add_item_edittext_display"
+                android:hint="@string/quantity_hint"
+
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/add_item_label_display"
+                android:text="@string/store_location_label" />
+
+            <EditText
+                android:id="@+id/on_sale_at"
+                style="@style/add_item_edittext_display"
+                android:hint="@string/store_location_hint"
+
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/add_item_label_display"
+                android:text="@string/price_label" />
+
+            <EditText
+                android:id="@+id/price"
+                style="@style/add_item_edittext_display"
+                android:hint="@string/price_hint"
+
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/add_item_label_display"
+                android:text="@string/product_type_label"
+                />
+
+            <Spinner
+                android:id="@+id/product_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:dropDownWidth="wrap_content"
+                android:entries="@array/product_arrays"
+                android:prompt="@string/product_prompt" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/add_item_label_display"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/notes_label" />
+
+            <EditText
+                android:id="@+id/notes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textView1"
+                android:ems="10"
+                android:hint="@string/notes_hint"
+                android:inputType="textMultiLine"
+                android:maxLength="255" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
